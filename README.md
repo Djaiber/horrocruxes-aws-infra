@@ -100,8 +100,8 @@ Run these commands **before** `terraform plan`.
 
 | Resource | Import command |
 |---|---|
-| ALB HTTP listener | `terraform import aws_lb_listener.http arn:aws:elasticloadbalancing:us-east-1:878581768959:listener/app/horrocruxes-alb-dev/2949c26e38d21c00/1b60b08fa99bae0a` |
-| ALB HTTPS listener | `terraform import aws_lb_listener.https arn:aws:elasticloadbalancing:us-east-1:878581768959:listener/app/horrocruxes-alb-dev/2949c26e38d21c00/8f6391fd267530e8` |
+| ALB HTTP listener | `terraform import aws_lb_listener.http arn:aws:elasticloadbalancing:us-east-1:<account_id_b>:listener/app/horrocruxes-alb-dev/2949c26e38d21c00/1b60b08fa99bae0a` |
+| ALB HTTPS listener | `terraform import aws_lb_listener.https arn:aws:elasticloadbalancing:us-east-1:<account_id_b>:listener/app/horrocruxes-alb-dev/2949c26e38d21c00/8f6391fd267530e8` |
 
 > After importing, run `terraform plan` to verify there are no unexpected changes before applying.
 
