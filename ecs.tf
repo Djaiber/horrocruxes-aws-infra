@@ -172,9 +172,9 @@ resource "aws_ecs_task_definition" "backend" {
       { "name" : "COGNITO_REGION", "value" : var.cognito_region },
       { "name" : "COGNITO_USER_POOL_ID", "value" : var.cognito_user_pool_id },
       { "name" : "COGNITO_CLIENT_ID", "value" : var.cognito_client_id },
-      { "name" : "GOOGLE_API_KEY", "value" : "arn:aws:secretsmanager:us-east-1:878581768959:secret:GOOGLE_API_KEY-wQtItx" },
-      #{ "name" : "GEMINI_API_KEY", "value" : "arn:aws:secretsmanager:us-east-1:878581768959:secret:GEMINI_API_KEY-BuRN0G" },
-      { "name" : "LAMBDA_URL", "value" : "arn:aws:secretsmanager:us-east-1:878581768959:secret:LAMBDA_URL-AEuOlS" }
+      { "name" : "GOOGLE_API_KEY", "value" : "arn:aws:secretsmanager:us-east-1:${var.account_id_a}:secret:GOOGLE_API_KEY-wQtItx" },
+      #{ "name" : "GEMINI_API_KEY", "value" : "arn:aws:secretsmanager:us-east-1:${var.account_id_a}:secret:GEMINI_API_KEY-BuRN0G" },
+      { "name" : "LAMBDA_URL", "value" : "arn:aws:secretsmanager:us-east-1:${var.account_id_a}:secret:LAMBDA_URL-AEuOlS" }
     ]
     logConfiguration = {
       logDriver = "awslogs"
