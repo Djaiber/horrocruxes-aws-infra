@@ -16,8 +16,9 @@ This repo is part of a multi-repo project. Here's the full picture:
 | **horrocruxes-epam** | Lambda + LangGraph logic for AI question-answering | [github.com/JevDev2304/horrocruxes-epam](https://github.com/JevDev2304/horrocruxes-epam.git) |
 | **horrocruxes-front-platform** | Frontend deployed via Ansible | [github.com/JevDev2304/horrocruxes-front-platform](https://github.com/JevDev2304/horrocruxes-front-platform.git) |
 
-- **Account A** (`854198083295`): Existing RDS PostgreSQL database (private, no public IP)
-- **Account B** (`878581768959`): ECS Fargate, ALB, VPC, and VPC Peering
+- **Account A** : Existing RDS PostgreSQL database (private, no public IP)
+- **Account B** : ECS Fargate, ALB, VPC, and VPC Peering
+- **Account C** : Lambda Core (Langgraph)
 
 ---
 
