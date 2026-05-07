@@ -7,3 +7,5 @@
 *.tfvars
 *.tfvars.json
 tfplan
+terraform.tfstate.*
+terraform.tfstate.backup
