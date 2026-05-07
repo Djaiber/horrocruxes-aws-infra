@@ -11,7 +11,7 @@ This repo is part of a multi-repo project. Here's the full picture:
 
 | Repository | Description | Link |
 |---|---|---|
-| **horrocruxes-aws-infra** (this repo) | Terraform — AWS infrastructure (VPC, ECS, RDS, ALB, VPC Peering) | — |
+| **horrocruxes-aws-infra** (this repo) | Terraform — AWS infrastructure (VPC, ECS, RDS, ALB, VPC Peering) | Current repository|
 | **devops_backend_horrocrux** | Python backend service deployed on ECS Fargate | [github.com/Djaiber/devops_backend_horrocrux](https://github.com/Djaiber/devops_backend_horrocrux.git) |
 | **horrocruxes-epam** | Lambda + LangGraph logic for AI question-answering | [github.com/JevDev2304/horrocruxes-epam](https://github.com/JevDev2304/horrocruxes-epam.git) |
 | **horrocruxes-front-platform** | Frontend deployed via Ansible | [github.com/JevDev2304/horrocruxes-front-platform](https://github.com/JevDev2304/horrocruxes-front-platform.git) |
