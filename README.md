@@ -17,7 +17,7 @@ This repo is part of a multi-repo project. Here's the full picture:
 | **horrocruxes-front-platform** | Frontend deployed via Ansible | [github.com/JevDev2304/horrocruxes-front-platform](https://github.com/JevDev2304/horrocruxes-front-platform.git) |
 
 - **Account A** : Existing RDS PostgreSQL database (private, no public IP)
-- **Account B** : ECS Fargate, ALB, VPC, and VPC Peering
+- **Account B** : ECS Fargate, ALB, VPC, VPC Peering, CloudFront Distribution
 - **Account C** : Lambda Core (Langgraph)
 
 ---
